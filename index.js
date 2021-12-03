@@ -8,7 +8,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/',(req,res) => {
-    res.send('Welcome to NodeJS')
+    res.send('Welcome to NodeJS, World Will BE YOURS!!!!')
 })
 
 app.listen(port,() => {
